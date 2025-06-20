@@ -38,5 +38,17 @@ namespace ProjectPP
             customer.Show();
             this.Hide();
         }
+
+        private void logInAsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void adminToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AdminLog admin = new AdminLog();
+            admin.Show();
+            this.Hide();
+        }
     }
 }

@@ -66,12 +66,14 @@
             this.logInAsToolStripMenuItem.Name = "logInAsToolStripMenuItem";
             this.logInAsToolStripMenuItem.Size = new System.Drawing.Size(82, 24);
             this.logInAsToolStripMenuItem.Text = "Log In as";
+            this.logInAsToolStripMenuItem.Click += new System.EventHandler(this.logInAsToolStripMenuItem_Click);
             // 
             // adminToolStripMenuItem
             // 
             this.adminToolStripMenuItem.Name = "adminToolStripMenuItem";
             this.adminToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.adminToolStripMenuItem.Text = "Admin";
+            this.adminToolStripMenuItem.Click += new System.EventHandler(this.adminToolStripMenuItem_Click);
             // 
             // customerToolStripMenuItem
             // 
